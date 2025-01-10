@@ -45,17 +45,21 @@ This project enables users to:
 
 1. Clone the repository.
 2. Install dependencies:
-- Backend:
-  cd backend
-  npm install
-- Frontend:
-  cd frontend
-  npm install
+  - Backend:
+    ```
+    cd backend
+    npm install
+    ```
+  - Frontend:
+    ```
+    cd frontend
+    npm install
+    ```
 3. Start the application:
-- Backend:
-  npm start
-- Frontend:
-  npm start
+  - Backend:
+    ```npm start```
+  - Frontend:
+    ```npm start```
 4. Open the app in your browser at http://localhost:3000.
 
 ## 📁 Folder Structure
