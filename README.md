@@ -80,3 +80,6 @@ task-management-app/
 - Add role-based access controls.
 - Improve UI/UX design with advanced styling frameworks.
 - Deploy the app to a cloud service (e.g., Heroku, Vercel).
+
+## Author
+- **Kainat Umar** - *Developer of this `Task Management App` using MERN technologies.*
