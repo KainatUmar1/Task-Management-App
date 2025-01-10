@@ -1,0 +1,83 @@
+/* Root Styles */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%; /* Ensures root takes full width */
+  height: 100%; /* Ensure root takes full height to adjust with screen size */
+}
+
+/* Logo Styling */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms ease;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Logo Spin Animation */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Card Styling */
+.card {
+  padding: 2em;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Read the Docs Link Styling */
+.read-the-docs {
+  color: #888;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.read-the-docs:hover {
+  color: #535bf2;
+}
+
+/* Responsive Design for Mobile & Tablets */
+@media (max-width: 768px) {
+  .logo {
+    height: 4em; /* Adjust logo size for smaller screens */
+    padding: 1em;
+  }
+
+  .card {
+    padding: 1.5em;
+  }
+}
+
+/* For better accessibility & smoother transitions */
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    transition: filter 300ms ease, transform 300ms ease;
+  }
+}

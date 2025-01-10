@@ -1,0 +1,63 @@
+/* Global Page Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Login Container */
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 480px;
+    transition: all 0.3s ease;
+}
+
+/* Title Styling */
+.login-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Text below title (optional, e.g., slogan or description) */
+.login-page p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #666;
+    text-align: center;
+}
+
+/* Link Styling */
+.login-page a {
+    color: #007bff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.login-page a:hover {
+    color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .login-page {
+        padding: 20px;
+        width: 90%;
+    }
+}

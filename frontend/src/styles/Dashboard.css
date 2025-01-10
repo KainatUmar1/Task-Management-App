@@ -1,0 +1,68 @@
+.dashboard {
+    padding: 20px;
+    background-color: #f8f8f8;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #333;
+    box-sizing: border-box;
+  }
+  
+  .dashboard h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 2.4em;
+    font-weight: 700;
+    text-transform: capitalize;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    background-color: #f8f8f8; /* To blend with background */
+    padding: 10px;
+  }
+  
+  .task-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .task-section > div {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .task-section > div:hover {
+    transform: translateY(-5px);
+  }
+  
+  .task-section h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .task-section p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .task-section {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  
